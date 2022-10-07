@@ -83,6 +83,7 @@ function App() {
             Learn more
           </a>
         </p>
+        <br></br>
       </div>
         <Carousel>
           <Carousel.Item>
