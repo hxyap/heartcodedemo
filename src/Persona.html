@@ -14,233 +14,272 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="Persona.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-custom">
-        <a class="navbar-brand">Nacrolepsy Awareness</a>
-    </nav>
-    <div class="row">
-        <div class="col-sm-2">
-            <div class="card" style="width: 18rem;">
-                <img src="assets/nick.png" class="card-img-top" alt="...">
-                <div class="card-body text-lg-right">
-                    <p class="card-text"> <b>Nick, 21 <br> University student</b> </p>
-                </div>
+    <div className="App">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+            <a class="navbar-brand" href="#">
+                <b>Nacrolepsy Awareness</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Home.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Persona.html">
+                            Persona
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Help.html">
+                            Help
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div class="col-sm">
-            <div class="content bg-light">
-                <br> </br>
-                <h1> Living with Narcolepsy</h1>
-                <div class="inline">
-                    <div class="green big">
-                        <p>
-                            <b> Persona </b>
-                        </p>
-                        <div class="width">
-                            <ul>
-                                <li>struggles to stay awake during lectures</li>
-                                <li>has difficulty concentrating</li>
-                                <li>family is very supportive</li>
-                                <li>experiences cataplexy at inconvenient times</li>
-                            </ul>
-                            <p> He is worried about his career prospects in future but hopes to live an independent
-                                and fulfilling life nonetheless.</p>
-                        </div>
+        </nav>
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/nick.png" class="card-img-top" alt="...">
+                    <div class="card-body text-lg-right">
+                        <p class="card-text"> <b>Nick, 21 <br> University student</b> </p>
                     </div>
                 </div>
-                <div class="inline">
-                    <p class="green">
-                        <b> Keep scrolling to learn more about
-                            <br> Nick and
-                            his experiecnes with narcolepsy.
-                        </b>
-                    </p>
+            </div>
+            <div class="col-sm">
+                <div class="content bg-light">
+                    <br> </br>
+                    <h1> Living with Narcolepsy</h1>
+                    <div class="inline">
+                        <div class="green big">
+                            <p>
+                                <b> Persona </b>
+                            </p>
+                            <div class="width">
+                                <ul>
+                                    <li>struggles to stay awake during lectures</li>
+                                    <li>has difficulty concentrating</li>
+                                    <li>family is very supportive</li>
+                                    <li>experiences cataplexy at inconvenient times</li>
+                                </ul>
+                                <p> He is worried about his career prospects in future but hopes to live an independent
+                                    and fulfilling life nonetheless.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inline">
+                        <p class="green">
+                            <b> Keep scrolling to learn more about
+                                <br> Nick and
+                                his experiecnes with narcolepsy.
+                            </b>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="timetable">
-        <div class="timetable-img text-center">
-            <img src="img/content/timetable.png" alt="">
+        <div class="timetable">
+            <div class="timetable-img text-center">
+                <img src="img/content/timetable.png" alt="">
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered text-center">
+                    <thead>
+                        <tr class="bg-light-gray">
+                            <th class="text-uppercase">Time
+                            </th>
+                            <th class="text-uppercase">Monday</th>
+                            <th class="text-uppercase">Tuesday</th>
+                            <th class="text-uppercase">Wednesday</th>
+                            <th class="text-uppercase">Thursday</th>
+                            <th class="text-uppercase">Friday</th>
+                            <th class="text-uppercase">Saturday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="align-middle">09:00am</td>
+                            <td>
+                                <span
+                                    class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">School</span>
+                                <div class="margin-10px-top font-size14">9:00-10:00</div>
+                                <div class="font-size13 text-light-gray">Trouble staying awake</div>
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Study</span>
+                                <div class="margin-10px-top font-size14">9:00-10:00</div>
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
+                                <div class="margin-10px-top font-size14">9:00-10:00</div>
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
+                                <div class="margin-10px-top font-size14">9:00-10:00</div>
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">10:00am</td>
+                            <td>
+                                <span
+                                    class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
+                                <div class="margin-10px-top font-size14">10:00-11:00</div>
+                                <div class="font-size13 text-light-gray">Falls asleep in class</div>
+                            </td>
+                            <td class="bg-light-gray">
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Study</span>
+                                <div class="margin-10px-top font-size14">10:00-11:00</div>
+                                <div class="font-size13 text-light-gray">Trouble staying awake</div>
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
+                                <div class="margin-10px-top font-size14">10:00-11:00</div>
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
+                                <div class="margin-10px-top font-size14">10:00-11:00</div>
+                                <div class="font-size13 text-light-gray">Has difficulty concentrating</div>
+                            </td>
+                            <td class="bg-light-gray">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">11:00am</td>
+                            <td>
+                                <span
+                                    class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
+                                <div class="margin-10px-top font-size14">11:00-12:00</div>
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Sports</span>
+                                <div class="margin-10px-top font-size14">11:00-12:00</div>
+                                <div class="font-size13 text-light-gray">Cataplexic episode</div>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
+                                <div class="margin-10px-top font-size14">11:00-12:00</div>
+                                <div class="font-size13 text-light-gray">Falls asleep in class</div>
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Study</span>
+                                <div class="margin-10px-top font-size14">11:00-12:00</div>
+                                <div class="font-size13 text-light-gray">Trouble staying awake</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">12:00pm</td>
+                            <td>
+                                <span
+                                    class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
+                                <div class="margin-10px-top font-size14">12:00-1:00</div>
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
+                                <div class="margin-10px-top font-size14">12:00-1:00</div>
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
+                                <div class="margin-10px-top font-size14">12:00-1:00</div>
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
+                                <div class="margin-10px-top font-size14">12:00-1:00</div>
+                                <div class="font-size13 text-light-gray">Involuntarily falls asleep</div>
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
+                                <div class="margin-10px-top font-size14">12:00-1:00</div>
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
+                                <div class="margin-10px-top font-size14">12:00-1:00</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">01:00pm</td>
+                            <td>
+                                <span
+                                    class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Sports</span>
+                                <div class="margin-10px-top font-size14">1:00-2:00</div>
+                                <div class="font-size13 text-light-gray">Feeling tired</div>
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Study</span>
+                                <div class="margin-10px-top font-size14">1:00-2:00</div>
+                            </td>
+                            <td class="bg-light-gray">
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Study</span>
+                                <div class="margin-10px-top font-size14">1:00-2:00</div>
+                                <div class="font-size13 text-light-gray">Trouble staying awake</div>
+                            </td>
+                            <td>
+                                <span
+                                    class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Study</span>
+                                <div class="margin-10px-top font-size14">1:00-2:00</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-        <div class="table-responsive">
-            <table class="table table-bordered text-center">
-                <thead>
-                    <tr class="bg-light-gray">
-                        <th class="text-uppercase">Time
-                        </th>
-                        <th class="text-uppercase">Monday</th>
-                        <th class="text-uppercase">Tuesday</th>
-                        <th class="text-uppercase">Wednesday</th>
-                        <th class="text-uppercase">Thursday</th>
-                        <th class="text-uppercase">Friday</th>
-                        <th class="text-uppercase">Saturday</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="align-middle">09:00am</td>
-                        <td>
-                            <span
-                                class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">School</span>
-                            <div class="margin-10px-top font-size14">9:00-10:00</div>
-                            <div class="font-size13 text-light-gray">Trouble staying awake</div>
-                        </td>
-                        <td>
-
-                        </td>
-                        <td>
-                            <span
-                                class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Study</span>
-                            <div class="margin-10px-top font-size14">9:00-10:00</div>
-                        </td>
-                        <td>
-                            <span
-                                class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
-                            <div class="margin-10px-top font-size14">9:00-10:00</div>
-                        </td>
-                        <td>
-                            <span
-                                class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
-                            <div class="margin-10px-top font-size14">9:00-10:00</div>
-                        </td>
-                        <td>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="align-middle">10:00am</td>
-                        <td>
-                            <span
-                                class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
-                            <div class="margin-10px-top font-size14">10:00-11:00</div>
-                            <div class="font-size13 text-light-gray">Falls asleep in class</div>
-                        </td>
-                        <td class="bg-light-gray">
-                        </td>
-                        <td>
-                            <span
-                                class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Study</span>
-                            <div class="margin-10px-top font-size14">10:00-11:00</div>
-                            <div class="font-size13 text-light-gray">Trouble staying awake</div>
-                        </td>
-                        <td>
-                            <span
-                                class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
-                            <div class="margin-10px-top font-size14">10:00-11:00</div>
-                        </td>
-                        <td>
-                            <span
-                                class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
-                            <div class="margin-10px-top font-size14">10:00-11:00</div>
-                            <div class="font-size13 text-light-gray">Has difficulty concentrating</div>
-                        </td>
-                        <td class="bg-light-gray">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="align-middle">11:00am</td>
-                        <td>
-                            <span
-                                class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
-                            <div class="margin-10px-top font-size14">11:00-12:00</div>
-                        </td>
-                        <td>
-                            <span
-                                class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Sports</span>
-                            <div class="margin-10px-top font-size14">11:00-12:00</div>
-                            <div class="font-size13 text-light-gray">Cataplexic episode</div>
-                        </td>
-                        <td>
-                        </td>
-                        <td>
-                            <span
-                                class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">School</span>
-                            <div class="margin-10px-top font-size14">11:00-12:00</div>
-                            <div class="font-size13 text-light-gray">Falls asleep in class</div>
-                        </td>
-                        <td>
-
-                        </td>
-                        <td>
-                            <span
-                                class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Study</span>
-                            <div class="margin-10px-top font-size14">11:00-12:00</div>
-                            <div class="font-size13 text-light-gray">Trouble staying awake</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="align-middle">12:00pm</td>
-                        <td>
-                            <span
-                                class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
-                            <div class="margin-10px-top font-size14">12:00-1:00</div>
-                        </td>
-                        <td>
-                            <span
-                                class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
-                            <div class="margin-10px-top font-size14">12:00-1:00</div>
-                        </td>
-                        <td>
-                            <span
-                                class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
-                            <div class="margin-10px-top font-size14">12:00-1:00</div>
-                        </td>
-                        <td>
-                            <span
-                                class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
-                            <div class="margin-10px-top font-size14">12:00-1:00</div>
-                            <div class="font-size13 text-light-gray">Involuntarily falls asleep</div>
-                        </td>
-                        <td>
-                            <span
-                                class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
-                            <div class="margin-10px-top font-size14">12:00-1:00</div>
-                        </td>
-                        <td>
-                            <span
-                                class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</span>
-                            <div class="margin-10px-top font-size14">12:00-1:00</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="align-middle">01:00pm</td>
-                        <td>
-                            <span
-                                class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Sports</span>
-                            <div class="margin-10px-top font-size14">1:00-2:00</div>
-                            <div class="font-size13 text-light-gray">Feeling tired</div>
-                        </td>
-                        <td>
-                            <span
-                                class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Study</span>
-                            <div class="margin-10px-top font-size14">1:00-2:00</div>
-                        </td>
-                        <td class="bg-light-gray">
-                        </td>
-                        <td>
-
-                        </td>
-                        <td>
-                            <span
-                                class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Study</span>
-                            <div class="margin-10px-top font-size14">1:00-2:00</div>
-                            <div class="font-size13 text-light-gray">Trouble staying awake</div>
-                        </td>
-                        <td>
-                            <span
-                                class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Study</span>
-                            <div class="margin-10px-top font-size14">1:00-2:00</div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="row">
+            <div class="col-sm-4 justify-content-center">
+                <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_gjaqgwif.json"
+                    background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay>
+                </lottie-player>
+            </div>
+            <div class="col-sm-8">
+                <button type="button" class="btn btn-outline-primary">
+                    <a href="Help.html"> click me</a>
+                </button>
+            </div>
         </div>
-    </div>
-
 </body>
 
 </html>
