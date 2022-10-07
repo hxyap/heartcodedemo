@@ -33,8 +33,8 @@ function App() {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Link
+              <a class="nav-link" href="./Persona.html">
+                Persona
               </a>
             </li>
             <li class="nav-item dropdown">
@@ -87,52 +87,52 @@ function App() {
         </p>
         <br></br>
       </div>
-        <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={nacrolepsy1}
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>Disrupted night time sleep.</h3>
-              <p>Nighttime sleep in patients with narcolepsy is characterized by a short sleep latency and a sleep-onset REM period in approximately 50% of cases. Aside from the short sleep latency, it is also characterized by an inability to stay asleep.
-                 Patients with narcolepsy experience frequent awakenings during sleep.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={cataplexy}
-              alt="Second slide"
-            />
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={nacrolepsy1}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3>Disrupted night time sleep.</h3>
+            <p>Nighttime sleep in patients with narcolepsy is characterized by a short sleep latency and a sleep-onset REM period in approximately 50% of cases. Aside from the short sleep latency, it is also characterized by an inability to stay asleep.
+              Patients with narcolepsy experience frequent awakenings during sleep.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={cataplexy}
+            alt="Second slide"
+          />
 
-            <Carousel.Caption>
-              <h3>Cataplexy</h3>
-              <p>
-                Cataplexy is a condition which causes several physical changes,
-                from slurred speech to complete weakness of most muscles,
-                and may last up to several minutes.
-                Some people with narcolepsy experience only one or two episodes of cataplexy a year, while others have numerous episodes daily.
-                 Not everyone with narcolepsy experiences cataplexy.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={sleepparalysis}
-              alt="Third slide"
-            />
+          <Carousel.Caption>
+            <h3>Cataplexy</h3>
+            <p>
+              Cataplexy is a condition which causes several physical changes,
+              from slurred speech to complete weakness of most muscles,
+              and may last up to several minutes.
+              Some people with narcolepsy experience only one or two episodes of cataplexy a year, while others have numerous episodes daily.
+              Not everyone with narcolepsy experiences cataplexy.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={sleepparalysis}
+            alt="Third slide"
+          />
 
-            <Carousel.Caption>
-              <h3>Sleep paralysis</h3>
-              <p>
-              People with narcolepsy often experience a temporary inability to move or speak while falling asleep or upon waking. 
+          <Carousel.Caption>
+            <h3>Sleep paralysis</h3>
+            <p>
+              People with narcolepsy often experience a temporary inability to move or speak while falling asleep or upon waking.
               These episodes are usually brief — lasting a few seconds or minutes — but can be frightening.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
     </div>
   );
 }
