@@ -1,5 +1,7 @@
 import "./App.css";
 import Carousel from "react-bootstrap/Carousel";
+import cataplexy from "./assets/cataplexy.jpg";
+import sleepparalysis from "./assets/sleepparalysis.jpg";
 import nacrolepsy1 from "./assets/nacrolepsy1.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -93,33 +95,40 @@ function App() {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>Disrupted night time sleep.</h3>
+              <p>Nighttime sleep in patients with narcolepsy is characterized by a short sleep latency and a sleep-onset REM period in approximately 50% of cases. Aside from the short sleep latency, it is also characterized by an inability to stay asleep.
+                 Patients with narcolepsy experience frequent awakenings during sleep.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={nacrolepsy1}
+              src={cataplexy}
               alt="Second slide"
             />
 
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>Cataplexy</h3>
+              <p>
+                Cataplexy is a condition which causes several physical changes,
+                from slurred speech to complete weakness of most muscles,
+                and may last up to several minutes.
+                Some people with narcolepsy experience only one or two episodes of cataplexy a year, while others have numerous episodes daily.
+                 Not everyone with narcolepsy experiences cataplexy.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={nacrolepsy1}
+              src={sleepparalysis}
               alt="Third slide"
             />
 
             <Carousel.Caption>
-              <h3>Third slide label</h3>
+              <h3>Sleep paralysis</h3>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              People with narcolepsy often experience a temporary inability to move or speak while falling asleep or upon waking. 
+              These episodes are usually brief — lasting a few seconds or minutes — but can be frightening.
               </p>
             </Carousel.Caption>
           </Carousel.Item>
