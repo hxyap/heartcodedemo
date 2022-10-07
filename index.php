@@ -1,3 +1,3 @@
 <?php
-    header("/src/Home.html")
+    header("Location: /src/Home.html")
 ?>
