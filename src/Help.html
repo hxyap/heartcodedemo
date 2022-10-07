@@ -10,7 +10,17 @@
         .navbar-custom {
             background-color: rgb(255, 250, 205);
         }
+        .sub1 {
+          font-family: Italina;
+        }
+        .div2 {
+          background-image: url('assets/pexels-johann-piber-695657.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          max-width: 100%;
+        }
     </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Italiana">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="Help.css">
@@ -54,13 +64,14 @@
             </ul>
           </div>
         </nav>
-    <header style="background: url(./assets/helpbg.jpg); background-repeat: no-repeat;">
+    <header style="background: url(./assets/helpbg.jpg); background-size: cover; background-repeat: no-repeat;">
         <div>
             <h1 class="header1">HOTLINES</h1>
             <p class="sub1">It's ok to not be ok</p>
         </div>
     </header>
-    <div class="container" style="z-index: -100;">
+    <div class="div2">
+      <div class="container container1" style="z-index: -100;">
         <ul id="cards">
             <li class="card" id="card_1">
                 <div class="card__content">
@@ -102,6 +113,8 @@
             </li>
         </ul>
     </div>
+    </div>
+    
 </body>
 
 </html>
